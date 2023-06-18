@@ -1,0 +1,15 @@
+body{
+    font-family: "helvetica", "Lucida Grande", sans-serif;
+    color: #3D3D3D;
+}
+h1{
+    background-color: #E1EDF2;
+}
+h2{
+    border-bottom: #E1EDF2;
+}
+figure{
+    text-align: center;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+}
