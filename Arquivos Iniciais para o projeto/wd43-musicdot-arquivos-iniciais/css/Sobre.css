@@ -23,9 +23,14 @@ figure{
 figcaption{
     margin-top: 10px;
 }
-=======
-    text-align: center;
-    background-color: whitesmoke;
-    border-bottom: 2px solid black;
+
+matriz-musicdot{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
->>>>>>> origin/master
+familia-tupfeln {
+    width: 275px;
+    float: right;
+}
+
