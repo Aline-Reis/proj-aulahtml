@@ -1,26 +1,18 @@
 body{
-<<<<<<< HEAD
     width: 940px;
-    margin-right: auto;
     margin-left: auto;
-
-=======
->>>>>>> origin/master
+    margin-right: auto;
     font-family: "helvetica", "Lucida Grande", sans-serif;
     color: #3D3D3D;
 }
 h1{
-<<<<<<< HEAD
     padding: 10px;
-=======
->>>>>>> origin/master
     background-color: #E1EDF2;
 }
 h2{
     border-bottom: #E1EDF2;
 }
 figure{
-<<<<<<< HEAD
     margin: 30px;
     padding: 15px;
 
