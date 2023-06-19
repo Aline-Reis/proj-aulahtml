@@ -24,13 +24,16 @@ figcaption{
     margin-top: 10px;
 }
 
-matriz-musicdot{
+.Matriz-MusicDot{
     width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
-familia-tupfeln {
+.Família-Tupfeln {
     width: 275px;
     float: right;
 }
 
+figure img {
+    width: 100%;
+}
