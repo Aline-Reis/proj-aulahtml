@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="icon" type="/img/favicon.ico" href="img/favicon.ico">
     <!--  ateração feita nos nomes de pastas e aquivos wd43-musicdot-arquivos-iniciais/img/favicon.ico-->
     <title>MusicDot | Sobre a empresa</title>
@@ -87,30 +88,45 @@
 </ul>
 
 <h2 class="titulo"> Contato </h2>
-<small>(todos os dias, das 9h às 18h) </small>
-<h3> Correspondência </h3>
-<small> (todos os dias, das 9h às 18h) </small>
 
-<address>
-    AOVS Sistemas de informatica S.A
-    <br>
-    Rua Vergueiro, 3185, 8º andar
-    <br>
-    Vila Mariana
-    <br>
-    São Paulo -SP
-</address>
+<div class="contato_secao">
 
-<h3> Telefones </h3>
+    <h3 class="contato_subtitulo"> Correspondência </h3>
+    <small>(todos os dias, das 9h às 18h) </small>
 
-<small> (segunda à sexta, das 9h às 18h) </small>
+    <address class="contato_info">
+        AOVS Sistemas de informatica S.A
+        <br>
+        Rua Vergueiro, 3185, 8º andar
+        <br>
+        Vila Mariana
+        <br>
+        São Paulo -SP
+    </address>
+</div>
 
-<dl>
-    <dt> Pessoa Física:</dt>
-    <dd><a href="Tel://114118-3319"> (11) 4118-3319 </a>"</dd>
-    <dt> Pessoa Jurídica:</dt>
-    <dd><a href="tel://114118-2172"> (11) 4118-2172 </a></dd>
-</dl>
+<div id="contato" class="contato_secao contato_telefone">
+    <h3 class="contato_subtitulo"> Telefones </h3>
+    <small> (segunda à sexta, das 9h às 18h) </small>
+
+    <dl class="contato_info">
+        <dt> Pessoa Física:</dt>
+        <div>
+            <dt class="contato_titulo"> Pessoa Fisica</dt>
+            <dd class="contato_info-desc"><a href="tel://114118-2172"> (11) 4118-3319 </a></dd>
+        </div>
+
+        <div>
+            <dt class="contato_titulo"> Pessoa Juridica:</dt>
+            <dd class="contato_info-desc"><a href="tel://114118-2112"> (11) 41182172 </a></dd>
+        </div>
+    </dl>
+</div>
+
+<footer class="rodape">
+    <img src="img/logo.svg" alt="logo da MusicDot" class="rodape-log">
+    <p class="rodape_copyright"> &copy; Copyright musicDot </p>
+</footer>
 
 </body>
 
