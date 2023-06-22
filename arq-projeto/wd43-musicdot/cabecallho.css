@@ -1,0 +1,28 @@
+.cabecalho{
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+
+    color: #FFF;
+    background-color: #2D5377;
+}
+
+.cabecalho-log{
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+
+.cabecalho-menu{
+    background-color: #272B3A87;
+}
+
+.cabecalho-intem{
+    display: inline-block;
+}
+
+.cabecalho-intem a{
+    display: inline-block;
+    padding: 1.8em 1.42em;
+}
